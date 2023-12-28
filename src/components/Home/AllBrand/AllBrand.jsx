@@ -21,7 +21,7 @@ const AllBrand = () => {
             </div>
 
             <div className='grid md:grid-cols-3 gap-5'>
-            <div  data-aos="fade-down" className="card w-80 ml-6  bg-white text-black  shadow-2xl">
+            <div  data-aos="fade-down" className="card w-80 ml-6   text-purple-400  shadow-2xl">
   <figure> <img  className='' src={imageA} alt="Unavailable Brand" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -35,7 +35,7 @@ const AllBrand = () => {
     </div>
   </div>
 </div>
-            <div data-aos="fade-down" className="card w-80 ml-6 bg-white text-black  shadow-2xl">
+            <div data-aos="fade-down" className="card w-80 ml-6  text-purple-400  shadow-2xl">
   <figure><img className='' src={imageB} alt="Unavailable Brand" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -52,7 +52,7 @@ const AllBrand = () => {
     </div>
   </div>
 </div>
-            <div data-aos="fade-down" className="card w-80 ml-6 bg-white text-black  shadow-2xl">
+            <div data-aos="fade-down" className="card w-80 ml-6  text-purple-400  shadow-2xl">
   <figure><img className='' src={imageC} alt="Unavailable Brand" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -68,7 +68,7 @@ const AllBrand = () => {
     </div>
   </div>
 </div>
-            <div data-aos="zoom-in" className="card w-80 ml-6 bg-white text-black  shadow-2xl">
+            <div data-aos="zoom-in" className="card w-80 ml-6  text-purple-400  shadow-2xl">
   <figure><img className='' src={imageD} alt="Unavailable Brand" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -86,7 +86,7 @@ const AllBrand = () => {
 </div>
             <div data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500" className="card w-80 ml-6 bg-white text-black  shadow-2xl">
+     data-aos-duration="1500" className="card w-80 ml-6  text-purple-400  shadow-2xl">
   <figure><img className='' src={imageE} alt="Unavailable Brand" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -105,7 +105,7 @@ const AllBrand = () => {
             <div data-aos="fade-down"
      data-aos-anchor="#example-anchor"
      data-aos-offset="500"
-     data-aos-duration="500" className="card w-80 ml-6 bg-white text-black  shadow-2xl">
+     data-aos-duration="500" className="card w-80 ml-6  text-purple-400  shadow-2xl">
   <figure><img className='' src={imageF} alt="Unavailable Brand" /></figure>
   <div className="card-body">
     <h2 className="card-title">

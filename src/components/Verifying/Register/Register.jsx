@@ -145,35 +145,35 @@ const Register = () => {
 </div>
 <br />
 <div className="card shrink-0 w-full max-w-sm shadow-2xl border-yellow-400">
-  <form onSubmit={handleFormSubmit} className="card-body bg-gradient-to-r  bg-white rounded-md shadow-2xl">
+  <form onSubmit={handleFormSubmit} className="card-body bg-gradient-to-r  rounded-md shadow-2xl">
   <h1 className="text-xs font-bold text-black  font-mono">Assalamoalikom</h1>
     <div className="form-control">
       <label className="label">
         <span className="label-text text-green-500">Name</span>
       </label>
-      <input type="text" placeholder= "  Name" name="name" className=" rounded-3xl p-1 text-white shadow-2xl border-b-4 border-green-500" required />
+      <input type="text" placeholder= "  Name" name="name" className=" rounded-3xl p-1  shadow-2xl border-b-4 border-green-500" required />
     </div>
     <div className="form-control">
       <label className="label">
         <span className="label-text text-green-500">Photo</span>
       </label>
-      <input type="text" placeholder= " PhotoUrl" name="photoURL" className=" rounded-3xl p-1 text-white shadow-2xl border-b-4 border-green-500" required />
+      <input type="text" placeholder= " PhotoUrl" name="photoURL" className=" rounded-3xl p-1  shadow-2xl border-b-4 border-green-500" required />
     </div>
     <div className="form-control">
       <label className="label">
         <span className="label-text text-green-500">Email</span>
       </label>
-      <input type="email" placeholder= "  Email"name="email" className=" rounded-3xl p-1 text-white shadow-2xl border-b-4 border-green-500" required />
+      <input type="email" placeholder= "  Email"name="email" className=" rounded-3xl p-1  shadow-2xl border-b-4 border-green-500" required />
     </div>
     <div className="form-control">
       <label className="label">
         <span className="label-text text-green-500">Password</span>
       </label>
-      <input type="password" placeholder="  Password" name="password" className="rounded-3xl p-1 text-white shadow-2xl border-b-4 border-green-500" required />
+      <input type="password" placeholder="  Password" name="password" className="rounded-3xl p-1  shadow-2xl border-b-4 border-green-500" required />
       
     </div>
     <div className="form-control mt-6">
-      <button className=" p-1 bg-green-600 rounded-full font-bold text-white">Continue</button>
+      <button className=" p-1 bg-green-600 rounded-full font-bold ">Continue</button>
       <div className="divider divider-success text-black">or</div>
     </div>
     <div className="flex flex-col w-full border-opacity-50">

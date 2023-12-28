@@ -13,9 +13,9 @@ const Cart = () => {
     return (
         <div>
             <div>
-                <h2 className="bg-red-800  p-4  mt-16 text-center w-80 mx-auto text-2xl text-white font-bold font-mono">My Cart </h2>
+                <h2 className="bg-red-800  p-4  mt-16 text-center w-80  mx-auto text-2xl text-white font-bold font-mono">My Cart </h2>
             </div>
-            <div className="grid md:grid-cols-3">
+            <div className="grid md:grid-cols-3 gap-3">
                 {
                     carts.map(cart => <AllCart key={cart.id} cart={cart}></AllCart>)
                 }

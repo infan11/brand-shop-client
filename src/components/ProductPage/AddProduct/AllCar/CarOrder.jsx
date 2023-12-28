@@ -39,7 +39,7 @@ const CarOrder = ({item}) => {
     }
     return (
         <div   data-aos="zoom-in">
-            <div  className="card w-80 ml-5  shadow-xl text-white">
+            <div  className="card w-80 ml-5  shadow-xl  text-black">
   <figure className="px-5 pt-10">
     <img src={image} alt="Unavailable acar" className="rounded-md" />
   </figure>

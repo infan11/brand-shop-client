@@ -26,7 +26,7 @@ const Mercedes  = products.filter(item => item.brand === "Mercedes")
     return (
         <div className=''>
        <div className="  bg-yellow-600 text-center p-2 mt-7 rounded-2xl mx-auto w-1/2 gap-5 ">
-            <div className="text-3xl text-white font-mono ">
+            <div className="text-xl text-white font-mono ">
                 <p>AUTOMOBILE ALL CAR </p>
             </div>
         </div>

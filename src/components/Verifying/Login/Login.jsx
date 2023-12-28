@@ -162,13 +162,13 @@ const Login = () => {
         <label className="label">
           <span className="label-text text-green-500">Email</span>
         </label>
-        <input type="email" placeholder= "  Email"name="email" className=" rounded-3xl p-1 text-white shadow-2xl border-b-4 border-green-500" required />
+        <input type="email" placeholder= "  Email"name="email" className=" rounded-3xl p-1 shadow-2xl border-b-4 border-green-500" required />
       </div>
       <div className="form-control">
         <label className="label">
           <span className="label-text text-green-500">Password</span>
         </label>
-        <input type="password" placeholder="  Password" name="password" className="rounded-3xl p-1 text-white shadow-2xl border-b-4 border-green-500" required />
+        <input type="password" placeholder="  Password" name="password" className="rounded-3xl p-1 shadow-2xl border-b-4 border-green-500" required />
         
       </div>
       <div className="form-control mt-6">

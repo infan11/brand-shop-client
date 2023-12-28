@@ -10,7 +10,7 @@ const AllCart = ({cart}) => {
     return (
         <div>
              <div   data-aos="zoom-in">
-            <div  className="card w-80 ml-5  shadow-xl text-white">
+            <div  className="card w-80 ml-5  shadow-xl bg-white text-black">
   <figure className="px-5 pt-10">
     <img src={image} alt="Unavailable acar" className="rounded-md" />
   </figure>
