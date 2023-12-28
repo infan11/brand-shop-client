@@ -1,0 +1,398 @@
+[
+    {
+        
+        "name": "BMW X5",
+        "brand": "Bmw",
+        "category": "SUV",
+        "price": 58999.99,
+        "short_description": "Luxurious SUV with advanced features",
+        "rating": 4.8,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/dJY49Lg/bmw-1.jpg"
+    },
+    {
+        
+        "name": "BMW 3 Series",
+        "brand": "Bmw",
+        "category": "Sedan",
+        "price": 45999.99,
+        "short_description": "Elegant and powerful sedan",
+        "rating": 4.6,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/1f2hSBs/bmw-2.jpg"
+    },
+    {
+        
+        "name": "BMW M4",
+        "brand": "Bmw",
+        "category": "Sports Car",
+        "price": 79999.99,
+        "short_description": "High-performance sports car with a sleek design",
+        "rating": 4.9,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/Nt1ZjSs/bmw-3.jpg"
+    },
+    {
+        
+        "name": "BMW iX3",
+        "brand": "Bmw",
+        "category": "Electric SUV",
+        "price": 64999.99,
+        "short_description": "Zero-emission electric SUV for eco-conscious drivers",
+        "rating": 4.7,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/jHPNgdX/bmw-4.jpg"
+    },
+    {
+        
+        "name": "BMW 7 Series",
+        "brand": "Bmw",
+        "category": "Luxury Sedan",
+        "price": 87999.99,
+        "short_description": "Premium luxury sedan with cutting-edge technology",
+        "rating": 4.8,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/s3xCmSW/bmw-5.jpg"
+    },
+    {
+        
+        "name": "BMW X3 M",
+        "brand": "Bmw",
+        "category": "Performance SUV",
+        "price": 71999.99,
+        "short_description": "Dynamic and sporty SUV for driving enthusiasts",
+        "rating": 4.6,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/5Lm0hKt/bmw-6.png"
+    },
+    {
+        
+        "name": "Ford Mustang",
+        "brand": "Ford",
+        "category": "Automotive",
+        "price": 49999.99,
+        "short_description": "Iconic sports car with powerful performance",
+        "rating": 4.8,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/pfN59q8/ford-1.jpg"
+    },
+    {
+        
+        "name": "Ford Explorer",
+        "brand": "Ford",
+        "category": "SUV",
+        "price": 35999.99,
+        "short_description": "Spacious and versatile SUV for family adventures",
+        "rating": 4.5,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/XtkvNJ0/ford-2.jpg"
+    },
+    {
+        
+        "name": "Ford F-150",
+        "brand": "Ford",
+        "category": "Truck",
+        "price": 42999.99,
+        "short_description": "Rugged and reliable pickup truck for tough tasks",
+        "rating": 4.6,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/MZjJtz6/ford-3.jpg"
+    },
+    {
+        
+        "name": "Ford Escape",
+        "brand": "Ford",
+        "category": "Crossover",
+        "price": 28999.99,
+        "short_description": "Compact crossover with fuel efficiency and style",
+        "rating": 4.3,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/CwQZkFy/ford-4r.jpg"
+    },
+    {
+        
+        "name": "Ford Focus",
+        "brand": "Ford",
+        "category": "Compact Car",
+        "price": 20999.99,
+        "short_description": "Efficient and nimble compact car for urban driving",
+        "rating": 4.0,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/5jtMYkM/ford-5r.jpg"
+    },
+    {
+        
+        "name": "Ford Bronco",
+        "brand": "Ford",
+        "category": "Off-Road",
+        "price": 44999.99,
+        "short_description": "Adventure-ready off-road vehicle with classic design",
+        "rating": 4.7,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/cF02MJt/ford-6.jpg"
+    },
+    {
+        
+        "name": "Honda Accord LX",
+        "brand": "Honda",
+        "category": "Automotive",
+        "price": 25999.99,
+        "short_description": "Sleek and reliable sedan",
+        "rating": 4.7,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/B2LKtSs/honda-1.jpg"
+    },
+    {
+        
+        "name": "Honda Civic EX",
+        "brand": "Honda",
+        "category": "Automotive",
+        "price": 21999.99,
+        "short_description": "Fuel-efficient and stylish",
+        "rating": 4.5,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/vYtqkCb/honda-2.jpg"
+    },
+    {
+        
+        "name": "Honda CR-V LX",
+        "brand": "Honda",
+        "category": "Automotive",
+        "price": 28999.99,
+        "short_description": "Versatile and spacious SUV",
+        "rating": 4.8,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/4s1RRCz/honda-3jpeg.jpg"
+    },
+    {
+        
+        "name": "Honda Fit Sport",
+        "brand": "Honda",
+        "category": "Automotive",
+        "price": 18999.99,
+        "short_description": "Compact and nimble hatchback",
+        "rating": 4.3,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/42gqmx0/honda-4.jpg"
+    },
+    {
+        
+        "name": "Honda Odyssey EX-L",
+        "brand": "Honda",
+        "category": "Automotive",
+        "price": 34999.99,
+        "short_description": "Family-friendly minivan",
+        "rating": 4.9,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/ygL7Xhq/honda-5.jpg"
+    },
+    {
+        
+        "name": "Honda Pilot Touring",
+        "brand": "Honda",
+        "category": "Automotive",
+        "price": 41999.99,
+        "short_description": "Powerful and comfortable SUV",
+        "rating": 4.6,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/xhmNd0s/honda-6.jpg"
+    },
+    {
+        
+        "name": "Model S",
+        "brand": "Tesla",
+        "category": "Electric Vehicles",
+        "price": 79999.99,
+        "short_description": "Luxury electric sedan",
+        "rating": 4.8,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/b34jvbC/tesla-1.jpg"
+    },
+    {
+        
+        "name": "Model 3",
+        "brand": "Tesla",
+        "category": "Electric Vehicles",
+        "price": 49999.99,
+        "short_description": "Midsize electric sedan",
+        "rating": 4.6,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/7QgqZpK/tesla-2.jpg"
+    },
+    {
+        
+        "name": "Model X",
+        "brand": "Tesla",
+        "category": "Electric Vehicles",
+        "price": 89999.99,
+        "short_description": "Sleek electric SUV",
+        "rating": 4.9,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/xSbkqNJ/tesla-3.jpg"
+    },
+    {
+        
+        "name": "Model Y",
+        "brand": "Tesla",
+        "category": "Electric Vehicles",
+        "price": 59999.99,
+        "short_description": "Compact electric SUV",
+        "rating": 4.7,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/Z6CxyvL/tesla-4.jpg"
+    },
+    {
+        
+        "name": "Cybertruck",
+        "brand": "Tesla",
+        "category": "Electric Vehicles",
+        "price": 69999.99,
+        "short_description": "Futuristic electric pickup truck",
+        "rating": 4.5,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/qpQ1VX8/tesla-5.jpgg"
+    },
+    {
+        
+        "name": "Roadster",
+        "brand": "Tesla",
+        "category": "Electric Vehicles",
+        "price": 149999.99,
+        "short_description": "High-performance electric sports car",
+        "rating": 5.0,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/sFxFBDG/tesla-6.jpg"
+    },
+    {
+        
+        "name": "Toyota Corolla",
+        "brand": "Toyota",
+        "category": "Sedan",
+        "price": 23999.99,
+        "short_description": "Compact and efficient sedan",
+        "rating": 4.6,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/rG7Vs7v/toyota-1.jpg"
+    },
+    {
+        
+        "name": "Toyota Camry",
+        "brand": "Toyota",
+        "category": "Midsize Sedan",
+        "price": 29999.99,
+        "short_description": "Elegant and comfortable midsize sedan",
+        "rating": 4.8,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/18SP2yD/toyota-2.jpg"
+    },
+    {
+        
+        "name": "Toyota RAV4",
+        "brand": "Toyota",
+        "category": "SUV",
+        "price": 32999.99,
+        "short_description": "Versatile and spacious SUV",
+        "rating": 4.5,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/dMRrf8Z/toyota-3.jpg"
+    },
+    {
+        
+        "name": "Toyota Prius",
+        "brand": "Toyota",
+        "category": "Hybrid",
+        "price": 27999.99,
+        "short_description": "Fuel-efficient hybrid car",
+        "rating": 4.2,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/PCSYgLy/toyota-4.jpg"
+    },
+    {
+        
+        "name": "Toyota Highlander",
+        "brand": "Toyota",
+        "category": "Midsize SUV",
+        "price": 36999.99,
+        "short_description": "Powerful and spacious midsize SUV",
+        "rating": 4.7,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/QHmQdHL/toyota-5.jpg"
+    },
+    {
+        
+        "name": "Toyota Tacoma",
+        "brand": "Toyota",
+        "category": "Truck",
+        "price": 31999.99,
+        "short_description": "Durable and rugged pickup truck",
+        "rating": 4.4,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/W5RWdDX/toyota-6.jpg"
+    },
+    {
+        
+        "name": "Mercedes-Benz S-Class",
+        "brand": "Mercedes",
+        "category": "Automotive",
+        "price": 95000.00,
+        "short_description": "Luxurious sedan with cutting-edge technology",
+        "rating": 4.9,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/Q98ysD2/mercedes-1.jpg"
+    },
+    {
+        
+        "name": "Mercedes-Benz E-Class",
+        "brand": "Mercedes",
+        "category": "Automotive",
+        "price": 65000.00,
+        "short_description": "Executive sedan with a perfect blend of performance and comfort",
+        "rating": 4.8,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/ZBF2DGx/mercedes-2.jpg"
+    },
+    {
+        
+        "name": "Mercedes-Benz GLE",
+        "brand": "Mercedes",
+        "category": "Automotive",
+        "price": 55000.00,
+        "short_description": "SUV that combines power and elegance",
+        "rating": 4.7,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/CzCf33G/mercedes-3.jpg"
+    },
+    {
+        
+        "name": "Mercedes-Benz C-Class",
+        "brand": "Mercedes",
+        "category": "Automotive",
+        "price": 45000.00,
+        "short_description": "Compact luxury sedan with sporty design",
+        "rating": 4.6,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/s9bzFzT/mercedes-4.jpg"
+    },
+    {
+        
+        "name": "Mercedes-Benz GLC",
+        "brand": "Mercedes",
+        "category": "Automotive",
+        "price": 48000.00,
+        "short_description": "Midsize luxury SUV offering versatility and style",
+        "rating": 4.8,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/Yf0cFMp/mercedes-5.jpg"
+    },
+    {
+        
+        "name": "Mercedes-Benz A-Class",
+        "brand": "Mercedes",
+        "category": "Automotive",
+        "price": 35000.00,
+        "short_description": "Compact car with a blend of style and performance",
+        "rating": 4.5,
+        "add_button": "Add to Cart",
+        "image": "https://i.ibb.co/RHsWWNM/mercedes-6.jpg"
+    }
+]
