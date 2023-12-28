@@ -5,6 +5,8 @@ import Swal from "sweetalert2";
 const CarOrder = ({item}) => {
     const {name , brand, price , short_description ,rating, image} = item;
     const handleAddToCart = () =>{
+      item.cartId = item._id
+      delete item._id
         fetch('http://localhost:5000/products' , {
           method: "POST" , 
           headers:{
@@ -39,7 +41,7 @@ const CarOrder = ({item}) => {
     }
     return (
         <div   data-aos="zoom-in">
-            <div  className="card w-80 ml-5  shadow-xl  text-black">
+            <div  className="card w-80 ml-5  shadow-xl  text-purple-500">
   <figure className="px-5 pt-10">
     <img src={image} alt="Unavailable acar" className="rounded-md" />
   </figure>

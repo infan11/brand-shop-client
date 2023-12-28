@@ -10,7 +10,7 @@ const AllCart = ({cart}) => {
     return (
         <div>
              <div   data-aos="zoom-in">
-            <div  className="card w-80 ml-5  shadow-xl bg-white text-black">
+            <div  className="card w-80 ml-5 text-purple-500 shadow-xl  ">
   <figure className="px-5 pt-10">
     <img src={image} alt="Unavailable acar" className="rounded-md" />
   </figure>
@@ -23,7 +23,7 @@ const AllCart = ({cart}) => {
 </p>
 <div className="card-actions justify-end">
     
-    <Link to={"/detail"}>  <button  className="badge badge-outline">Details</button></Link>
+    <Link to={`/detail/${cart.cartId}`}>  <button  className="badge badge-outline">Details</button></Link>
     </div>
 
     <div className="card-actions">

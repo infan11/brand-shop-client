@@ -14,9 +14,9 @@ const Detail = () => {
      }, [data._id])
      const {name , brand, price , short_description ,rating, image} = cart;
     return (
-        <div>
+        <div className="flex min-h-screen items-center justify-center ">
                <div   data-aos="zoom-in" className="">
-            <div  className="card w-80 ml-5 min-h-screen text-center shadow-xl -0">
+            <div  className="card w-80 ml-3   shadow-xl -0">
   <figure className="px-5 pt-10">
     <img src={image} alt="Unavailable car" className="rounded-md" />
   </figure>

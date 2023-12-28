@@ -14,7 +14,7 @@ const Register = () => {
         event.preventDefault();
         const form = event.target;
         const name = form.name.value;
-        const photoUrl = form.photoURL.value;
+        const photoUrl = form.photoUrl.value;
         const email = form.email.value;
         const password = form.password.value;
         const registerUser = {name , photoUrl, email, password};
