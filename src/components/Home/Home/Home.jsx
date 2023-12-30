@@ -1,6 +1,7 @@
 import AllBrand from "../AllBrand/AllBrand";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
+import Review from "../Review/Review";
 import Team from "../Team/Team";
 
 
@@ -12,6 +13,7 @@ const Home = () => {
                <AllBrand></AllBrand>
                <Contact></Contact>
                <Team></Team>
+               <Review></Review>
          
         </div>
     );

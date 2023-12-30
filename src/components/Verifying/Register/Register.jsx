@@ -14,10 +14,10 @@ const Register = () => {
         event.preventDefault();
         const form = event.target;
         const name = form.name.value;
-        const photoUrl = form.photoUrl.value;
+        const photo = form.photo.value;
         const email = form.email.value;
         const password = form.password.value;
-        const registerUser = {name , photoUrl, email, password};
+        const registerUser = {name , photo, email, password};
         console.log(registerUser);
         if(password.length < 6){
             Swal.fire({
@@ -157,7 +157,7 @@ const Register = () => {
       <label className="label">
         <span className="label-text text-green-500">Photo</span>
       </label>
-      <input type="text" placeholder= " PhotoUrl" name="photoURL" className=" rounded-3xl p-1  shadow-2xl border-b-4 border-green-500" required />
+      <input type="text" placeholder= " PhotoUrl" name="photo" className=" rounded-3xl p-1  shadow-2xl border-b-4 border-green-500" required />
     </div>
     <div className="form-control">
       <label className="label">

@@ -14,6 +14,7 @@ import AuthProvider from './components/AuthProvider/AuthProvider.jsx';
 import AddProduct from './components/ProductPage/AddProduct/AddProduct.jsx';
 import MyCart from './components/Mycart/MyCart.jsx';
 import Detail from './components/Mycart/Detail/Detail.jsx';
+import PriavteRouter from './components/Router/PriavteRouter.jsx';
 
 
 
@@ -36,16 +37,16 @@ const router = createBrowserRouter([
       },
       {
        path:"/addProduct",
-       element:<AddProduct></AddProduct>
+       element: <PriavteRouter><AddProduct></AddProduct></PriavteRouter>
 
       },
       {
       path:"/myCart",
-      element:<MyCart></MyCart>
+      element:<PriavteRouter><MyCart></MyCart></PriavteRouter>
       },
       {
       path:"/detail/:_id",
-      element:<Detail></Detail>
+      element:<PriavteRouter><Detail></Detail></PriavteRouter>
       },
       {
         path:"/login",

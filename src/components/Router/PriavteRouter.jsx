@@ -10,11 +10,11 @@ const PriavteRouter = ({children}) => {
             <span className="loading loading-spinner text-success min-h-screen  text-3xl "></span>
         </div>
     }
-    if(user){
-        return children
-    }
-
+    if( !user){
 return <Navigate to={"/login" } state={{from: location}} replace></Navigate>
+
+    }
+return children
     
 };
 
