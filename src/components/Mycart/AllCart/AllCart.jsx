@@ -27,7 +27,7 @@ const AllCart = ({cart}) => {
     </div>
 
     <div className="card-actions">
-      <button  className="btn btn-block">Update</button>
+  <Link to={`/updateProduct/${cart.cartId}`}>    <button  className="btn btn-block">Update</button></Link>
     </div>
   </div>
 </div>

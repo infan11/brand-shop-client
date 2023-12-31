@@ -9,7 +9,7 @@ const Review = () => {
             <div className="bg-emerald-500 text-2xl mt-5 mb-6   text-white  w-80 mx-auto text-center p-3 font-bold rounded-2xl">
                 <h2>Customer Review</h2>
             </div>
-            <div className='grid md:grid-cols-3 gap-3 mb-14'>
+            <div className='grid md:grid-cols-3 gap-3 mb-14 ml-3'>
             <div data-aos="fade-down "
      data-aos-easing="linear"
      data-aos-duration="1500" className="  rounded-2xl shadow-2xl w-80 ">

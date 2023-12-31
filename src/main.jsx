@@ -15,6 +15,7 @@ import AddProduct from './components/ProductPage/AddProduct/AddProduct.jsx';
 import MyCart from './components/Mycart/MyCart.jsx';
 import Detail from './components/Mycart/Detail/Detail.jsx';
 import PriavteRouter from './components/Router/PriavteRouter.jsx';
+import UpdateProduct from './components/Update/UpdateProduct.jsx';
 
 
 
@@ -48,6 +49,13 @@ const router = createBrowserRouter([
       path:"/detail/:_id",
       element:<PriavteRouter><Detail></Detail></PriavteRouter>
       },
+      {
+       path:"/updateProduct/:_id",
+       element:<UpdateProduct></UpdateProduct>,
+       loader: ({params}) => fetch(`http://localhost:5000/products/${params._id}`)
+      },
+      
+      
       {
         path:"/login",
         element: <Login></Login>
