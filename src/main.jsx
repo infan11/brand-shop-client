@@ -16,6 +16,7 @@ import MyCart from './components/Mycart/MyCart.jsx';
 import Detail from './components/Mycart/Detail/Detail.jsx';
 import PriavteRouter from './components/Router/PriavteRouter.jsx';
 import UpdateProduct from './components/Update/UpdateProduct.jsx';
+import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 
 
 
@@ -24,8 +25,9 @@ import UpdateProduct from './components/Update/UpdateProduct.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    // to do ErrorPage add
+    
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -51,11 +53,11 @@ const router = createBrowserRouter([
       },
       {
        path:"/updateProduct/:_id",
-       element:<UpdateProduct></UpdateProduct>,
+       element:<PriavteRouter><UpdateProduct></UpdateProduct></PriavteRouter>,
        loader: ({params}) => fetch(`http://localhost:5000/products/${params._id}`)
       },
       
-      
+
       {
         path:"/login",
         element: <Login></Login>

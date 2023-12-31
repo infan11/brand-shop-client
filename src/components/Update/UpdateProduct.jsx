@@ -6,7 +6,6 @@ import Swal from "sweetalert2";
 const UpdateProduct = () => {
    const cart = useLoaderData();
    const {_id, image, name, price, rating , brand} = cart;
-    const data = useParams()
     
    
     const handleFormSubmit = event => {
@@ -21,8 +20,8 @@ const UpdateProduct = () => {
         const updateProduct = {image, name , brand, category, price, rating , }
         console.log(updateProduct);
    
-        console.log(data);
-
+     
+       
         fetch(`http://localhost:5000/products/${_id}`,{
             method: 'PUT' , 
             headers:{

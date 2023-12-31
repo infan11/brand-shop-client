@@ -17,7 +17,7 @@ const Cart = () => {
             </div>
             <div className="grid md:grid-cols-3 gap-3">
                 {
-                    carts.map(cart => <AllCart key={cart.id} cart={cart}></AllCart>)
+                    carts.map(cart => <AllCart key={cart.id} cart={cart} setCartscart={setCarts}></AllCart>)
                 }
             </div>
         </div>

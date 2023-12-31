@@ -17,8 +17,8 @@ const Team = () => {
 </div>
          
          <div  className="   ml-3">
-    <h2 className="text-2xl  ml-11 font-bold font-mono text-white">Atawor Rahman</h2>
-    <p className='text-2xl   ml-11 font-bold font-mono text-white'>Owner</p>
+    <h2 className="text-2xl  ml-11 font-bold font-mono ">Atawor Rahman</h2>
+    <p className='text-2xl   ml-11 font-bold font-mono '>Owner</p>
   </div>
         </div> 
         <div>
@@ -30,8 +30,8 @@ const Team = () => {
 </div>
          
          <div  className="  ml-3">
-    <h2 className="text-2xl  ml-11 font-bold font-mono text-white">Pervez Rahman</h2>
-    <p className='text-2xl  ml-11 font-bold font-mono text-white'>Employer</p>
+    <h2 className="text-2xl  ml-11 font-bold font-mono ">Pervez Rahman</h2>
+    <p className='text-2xl  ml-11 font-bold font-mono '>Employer</p>
   </div>
         </div> 
         <div>
@@ -43,8 +43,8 @@ const Team = () => {
 </div>
          
          <div  className="  ml-3">
-    <h2 className="text-2xl  ml-11 font-bold font-mono text-white">Mosharof Kondoker</h2>
-    <p className='text-2xl  ml-11 font-bold font-mono text-white'>Employer</p>
+    <h2 className="text-2xl  ml-11 font-bold font-mono ">Mosharof Kondoker</h2>
+    <p className='text-2xl  ml-11 font-bold font-mono '>Employer</p>
   </div>
         </div> 
          </div>

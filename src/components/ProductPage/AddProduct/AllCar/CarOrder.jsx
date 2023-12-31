@@ -5,8 +5,8 @@ import Swal from "sweetalert2";
 const CarOrder = ({item}) => {
     const {name , brand, price , short_description ,rating, image} = item;
     const handleAddToCart = () =>{
-      item.cartId = item._id
-      delete item._id
+      item.cartId = item._id;
+      delete item._id;
         fetch('http://localhost:5000/products' , {
           method: "POST" , 
           headers:{
