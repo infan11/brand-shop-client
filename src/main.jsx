@@ -54,7 +54,7 @@ const router = createBrowserRouter([
       {
        path:"/updateProduct/:_id",
        element:<PriavteRouter><UpdateProduct></UpdateProduct></PriavteRouter>,
-       loader: ({params}) => fetch(`http://localhost:5000/products/${params._id}`)
+       loader: ({params}) => fetch(`https://brand-shop-server-beige-one.vercel.app/products/${params._id}`)
       },
       
 

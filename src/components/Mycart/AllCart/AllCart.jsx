@@ -20,7 +20,7 @@ const AllCart = ({cart , setCart }) => {
   })
   .then((result ) =>{
     if(result.isConfirmed){
-      fetch(`http://localhost:5000/products/${_id}`, {
+      fetch(`https://brand-shop-server-beige-one.vercel.app/products/${_id}`, {
         method: "DELETE"
       })
       .then(res => res.json())

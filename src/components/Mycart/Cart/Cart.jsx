@@ -6,7 +6,7 @@ import AllCart from "../AllCart/AllCart";
 const Cart = () => {
     const [carts , setCarts ] = useState([]);
     useEffect(() =>{
-        fetch("http://localhost:5000/products")
+        fetch("https://brand-shop-server-beige-one.vercel.app/products")
         .then(res => res.json())
         .then(data => setCarts(data))
     } ,[])

@@ -7,7 +7,7 @@ const CarOrder = ({item}) => {
     const handleAddToCart = () =>{
       item.cartId = item._id;
       delete item._id;
-        fetch('http://localhost:5000/products' , {
+        fetch('https://brand-shop-server-beige-one.vercel.app/products' , {
           method: "POST" , 
           headers:{
             "content-type": "application/json"

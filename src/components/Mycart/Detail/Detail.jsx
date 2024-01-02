@@ -8,7 +8,7 @@ const Detail = () => {
     console.log(data);
     const [cart , setCart] = useState([]);
      useEffect(() =>{
-      fetch(`http://localhost:5000/products/${data._id}`)
+      fetch(`https://brand-shop-server-beige-one.vercel.app/products/${data._id}`)
       .then(res => res.json())
       .then(data => setCart(data))
      }, [data._id])

@@ -7,7 +7,7 @@ import Order from './Order';
 const AllCar = () => {
     const [products , setProducts] = useState([])
     useEffect(() =>{
-        fetch("http://localhost:5000/product")
+        fetch("https://brand-shop-server-beige-one.vercel.app/product")
         .then(res => res.json())
         .then(data => setProducts(data))
         console.log();
